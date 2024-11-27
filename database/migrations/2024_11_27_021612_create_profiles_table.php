@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->integer('age');
-            $table->text('turn-ons');
+            $table->text('turnOns');
             $table->string('thumb');
 
             $table->text('bio');
