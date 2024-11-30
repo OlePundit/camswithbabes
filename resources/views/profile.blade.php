@@ -98,7 +98,11 @@
             <div class="card card-pics">
                 <h4>My public pics</h4>
                 <div class="row">
-                    @foreach(explode(',', $profile->imgs) as $img)
+                    @php
+                    // Decode the JSON string into an array
+                    $img = json_decode($profile->img, true);
+                    @endphp
+                    @foreach($img as $img)
                     <div class="col-md-6 col-6">
                         <img src="storage/{{$img}}">
                     </div>
