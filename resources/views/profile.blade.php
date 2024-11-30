@@ -8,7 +8,7 @@
                 <h1 class="card-header">
                     {{$profile->name}}
                   </h1>
-                <img src="storage/{{ asset('storage/'.$profile->thumb) }}" class="card-img-top" alt="...">
+                <img src="{{ asset('storage/'.$profile->thumb) }}" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">{{$profile->availability}}</p>
                 </div>
