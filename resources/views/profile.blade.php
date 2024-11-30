@@ -92,8 +92,7 @@
             <div class="card card-pics">
                 <h4>My public pics</h4>
                 <div class="row">
-                    @foreach($profile->img as $img)
-
+                    @foreach(explode(',', $profile->imgs) as $img)
                     <div class="col-md-6 col-6">
                         <img src="storage/{{$img}}">
                     </div>
