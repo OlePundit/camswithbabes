@@ -388,7 +388,7 @@
                         <a href="soon.html">
 
                             <div class="img-container box">
-                                <img src="{{$model->thumb}}" alt="model">
+                                <img src="storage/{{$model->thumb}}" alt="model">
                                 <div class="text">
                                     <h4><i class="fa fa-circle dot" aria-hidden="true"></i>{{$model->name}}</h4>
                                     <i class="fa fa-phone"></i>
