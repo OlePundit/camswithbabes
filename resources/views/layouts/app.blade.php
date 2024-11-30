@@ -35,7 +35,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="storage/images/logo1.png" alt="">
+                    <img src="{{ asset('storage/images/logo1.png') }}" alt="">
                 </a>
                 <div class="phone">
                     <form class="d-flex" role="search" style="position: relative;">
