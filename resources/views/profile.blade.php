@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container profile mt-5">
-    <div class="row justify-content-center mt-5">
-        <div class="col-md-4">
+<div class="container profile">
+    <div class="row justify-content-center">
+        <div class="col-md-4 mt-5">
             <div class="card" style="width: 18rem;">
                 <h1 class="card-header">
                     {{$profile->name}}
@@ -68,7 +68,7 @@
             </div>
             
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 mt-5">
             <div class="welcome-card">
                 <h2>I'm Live! Come & join me x</h2>
                 <div class="row">
