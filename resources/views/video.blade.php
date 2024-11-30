@@ -8,7 +8,7 @@
             <label>{{$video->name}}</label>
         </div>
         <!-- Video -->
-        <video id="video-element" src="{{ asset('storage/'.$video->video) }}" autoplay loop muted></video>
+        <video id="video-element" src="{{ asset('storage/'.$video->videos) }}" autoplay loop muted></video>
         
         <!-- Controls -->
         <div class="right-controls">
