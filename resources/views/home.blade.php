@@ -113,9 +113,11 @@
 <div class="head-shape">
     <!--==============================header=================================-->
     <header>            
-        <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="storage/images/logo1.png" alt=""></a>
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    <img src="{{ asset('storage/images/logo1.png') }}" alt="">
+                </a>
                 <div class="phone">
                     <form class="d-flex" role="search" style="position: relative;">
                         <span style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%);display:flex;">
@@ -128,39 +130,65 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar -->
+                    <div class="navbar-nav me-auto">
+                        <form class="d-flex" role="search" style="position: relative;">
+                            <span style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%);display:flex;">
+                                <i class="fas fa-search"></i>
+                            </span>
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="padding-left: 30px;">
+                        </form>
+                    </div>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="d-flex" role="search" style="position: relative;">
-                    <span style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%);display:flex;">
-                        <i class="fas fa-search"></i>
-                    </span>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="padding-left: 30px;">
-                </form>
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle other-menu" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gender-trans" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1.707L3.5 2.793l.646-.647a.5.5 0 1 1 .708.708l-.647.646.822.822A4 4 0 0 1 8 3c1.18 0 2.239.51 2.971 1.322L14.293 1H11.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-3.45 3.45A4 4 0 0 1 8.5 10.97V13H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V14H6a.5.5 0 0 1 0-1h1.5v-2.03a4 4 0 0 1-3.05-5.814l-.95-.949-.646.647a.5.5 0 1 1-.708-.708l.647-.646L1 1.707V3.5a.5.5 0 0 1-1 0zm5.49 4.856a3 3 0 1 0 5.02 3.288 3 3 0 0 0-5.02-3.288"/>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Males</a></li>
+                            <li><a class="dropdown-item" href="#">Females</a></li>
+                            <li><a class="dropdown-item" href="#">Trans</a></li>
+                            </ul>
+                        </li>
+                        <!-- Authentication Links -->
+                        @guest
+                            @if (Route::has('login'))
+                                <li class="nav-item">
+                                    <a class="nav-link other-menu" href="{{ route('login') }}">Login</a>
+                                </li>
+                            @endif
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle other-menu" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gender-trans" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1.707L3.5 2.793l.646-.647a.5.5 0 1 1 .708.708l-.647.646.822.822A4 4 0 0 1 8 3c1.18 0 2.239.51 2.971 1.322L14.293 1H11.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-3.45 3.45A4 4 0 0 1 8.5 10.97V13H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V14H6a.5.5 0 0 1 0-1h1.5v-2.03a4 4 0 0 1-3.05-5.814l-.95-.949-.646.647a.5.5 0 1 1-.708-.708l.647-.646L1 1.707V3.5a.5.5 0 0 1-1 0zm5.49 4.856a3 3 0 1 0 5.02 3.288 3 3 0 0 0-5.02-3.288"/>
-                        </svg>
-                    </a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Males</a></li>
-                    <li><a class="dropdown-item" href="#">Females</a></li>
-                    <li><a class="dropdown-item" href="#">Trans</a></li>
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link free-join" href="{{ route('register') }}">Join</a>
+                                </li>
+                            @endif
+                        @else
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }}
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
                     </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link other-menu" href="soon.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link free-join" href="soon.html">Join</a>
-                </li>
-
-                </ul>
-
-            </div>
+                </div>
             </div>
         </nav>
     </header>
