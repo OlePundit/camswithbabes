@@ -20,7 +20,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $models = Profile::all();
+        return view('home', compact('models'));
     }
     public function profile()
     {
