@@ -104,7 +104,7 @@
                     @endphp
                     @foreach($img as $img)
                     <div class="col-md-6 col-6">
-                        <img src="storage/{{ asset('storage/'.$img) }}">
+                        <img src="{{ asset('storage/'.$img) }}">
                     </div>
                     @endforeach
 
