@@ -28,7 +28,7 @@
                     </tr>
                     <tr>
                         <td class="lead">Turn Ons</td>
-                        <td class="p">{{$profile->turn-ons}}
+                        <td class="p">{{$profile->turnOns}}
 
                         </td>
 
