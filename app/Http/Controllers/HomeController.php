@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Profile;
+use App\Models\Video;
 
 class HomeController extends Controller
 {
@@ -22,7 +23,8 @@ class HomeController extends Controller
     public function index()
     {
         $models = Profile::all();
-        return view('home', compact('models'));
+        $videos = Video:all();
+        return view('home', compact('models','videos'));
     }
     public function profile(Profile $profile)
     {

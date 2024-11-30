@@ -5,7 +5,7 @@
     <div class="video-container">
         <div class="left-controls">
             <img src="{{ asset('storage/'.$video->thumb) }}" class="rounded-circle">
-            <label>Harley D</label>
+            <label>{{$video->name}}</label>
         </div>
         <!-- Video -->
         <video id="video-element" src="{{ asset('storage/'.$video->video) }}" autoplay loop muted></video>
