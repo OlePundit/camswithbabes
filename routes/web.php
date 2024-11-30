@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/profile/{profile}', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');
-Route::get('/video', [App\Http\Controllers\HomeController::class, 'video'])->name('video');
+Route::get('/video/{video}', [App\Http\Controllers\HomeController::class, 'video'])->name('video');
 
 
 Route::group(['prefix' => 'admin'], function () {

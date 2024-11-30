@@ -28,8 +28,9 @@ class HomeController extends Controller
     {
         return view('profile', compact('profile'));
     }
-    public function video()
+    public function video(Video $video)
     {
-        return view('video');
+        $video = Video::all();
+        return view('video',compact('video'));
     }
 }

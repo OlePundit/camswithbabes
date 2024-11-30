@@ -4,11 +4,11 @@
 <div class="container video">
     <div class="video-container">
         <div class="left-controls">
-            <img src="storage/images/model8.webp" class="rounded-circle">
+            <img src="{{ asset('storage/'.$video->thumb) }}" class="rounded-circle">
             <label>Harley D</label>
         </div>
         <!-- Video -->
-        <video id="video-element" src="storage/videos/cam-vid.mp4" autoplay loop muted></video>
+        <video id="video-element" src="{{ asset('storage/'.$video->video) }}" autoplay loop muted></video>
         
         <!-- Controls -->
         <div class="right-controls">
