@@ -54,10 +54,11 @@
             <div class="card card-tag">
                 <h3>Tags</h3>
                 <div class="tag-container">
-                    @foreach($profile->tags as $tag)
-                    <span>{{$tag}}</span>
+                    @foreach(explode(',', $profile->tags) as $tag)
+                        <span>{{ $tag }}</span>
                     @endforeach
                 </div>
+                
             </div>
             
         </div>
