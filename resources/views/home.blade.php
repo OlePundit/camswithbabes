@@ -184,9 +184,9 @@
                         @foreach($videos as $video)
                         <div class="swiper-slide">
                             <div class="img-label">
-                                <a href="soon.html">
+                                <a href="video/{{$video->id}}">
                                     <div class="img-container box">
-                                        <img src="storage/images/model8.webp" alt="model">
+                                        <img src="storage/{{$video->video}}" alt="model">
                                         <i class="fa-solid fa-play"></i>
 
                                     </div>
