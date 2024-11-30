@@ -186,7 +186,7 @@
                             <div class="img-label">
                                 <a href="video/{{$video->id}}">
                                     <div class="img-container box">
-                                        <img src="storage/{{$video->video}}" alt="model">
+                                        <img src="storage/{{$video->thumb}}" alt="model">
                                         <i class="fa-solid fa-play"></i>
 
                                     </div>
