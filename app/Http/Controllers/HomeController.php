@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Profile;
-use App\Models\Video;
+use App\Models\Videos;
 
 class HomeController extends Controller
 {
@@ -32,7 +32,7 @@ class HomeController extends Controller
     }
     public function video(Video $video)
     {
-        $video = Video::all();
+        $video = Videos::all();
         return view('video',compact('video'));
     }
 }
