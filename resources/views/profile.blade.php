@@ -54,10 +54,16 @@
             <div class="card card-tag">
                 <h3>Tags</h3>
                 <div class="tag-container">
-                    @foreach(explode(',', $profile->tags) as $tag)
+                    @php
+                        // Decode the JSON string into an array
+                        $tags = json_decode($profile->tags, true);
+                    @endphp
+                
+                    @foreach($tags as $tag)
                         <span>{{ $tag }}</span>
                     @endforeach
                 </div>
+                
                 
             </div>
             
