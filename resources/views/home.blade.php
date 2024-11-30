@@ -385,7 +385,7 @@
                 <div class="row justify-content-center model-wrap">
                     @foreach($models as $model)
                     <div class="img-label col-xl-3 col-lg-3 col-md-4 col-6">
-                        <a href="soon.html">
+                        <a href="/profile/{{$model->id}}">
 
                             <div class="img-container box">
                                 <img src="storage/{{$model->thumb}}" alt="model">

@@ -24,9 +24,9 @@ class HomeController extends Controller
         $models = Profile::all();
         return view('home', compact('models'));
     }
-    public function profile()
+    public function profile(Profile $profile)
     {
-        return view('profile');
+        return view('profile', compact('profile'));
     }
     public function video()
     {
