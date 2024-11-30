@@ -113,7 +113,7 @@
 <div class="head-shape">
     <!--==============================header=================================-->
     <header>            
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-dark bg-body shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="{{ asset('storage/images/logo1.png') }}" alt="">
