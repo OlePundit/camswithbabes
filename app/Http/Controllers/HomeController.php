@@ -30,7 +30,7 @@ class HomeController extends Controller
     {
         return view('profile', compact('profile'));
     }
-    public function video(Video $video)
+    public function video(Videos $video)
     {
         $video = Videos::all();
         return view('video',compact('video'));
