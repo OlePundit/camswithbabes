@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container profile">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mt-5">
         <div class="col-md-4">
             <div class="card" style="width: 18rem;">
                 <h1 class="card-header">
