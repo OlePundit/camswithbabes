@@ -1476,7 +1476,11 @@ dl dd { }
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 999;
   }
- 
+  #popup .popup-content{
+	display:flex;
+	justify-content: start;
+	flex-direction: column;
+  }
   #popup h3{
 	color:#ff2363;
 	font-weight: 700;
