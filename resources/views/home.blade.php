@@ -196,7 +196,14 @@
     <div class="container">
 
         <section id="content">
+            <div id="popup-overlay"></div>
 
+            <!-- Pop-up Content -->
+            <div id="popup">
+              <h3>Welcome!</h3>
+              <p>This is an automatic pop-up message.</p>
+              <button id="close-popup">Close</button>
+            </div>
         
             <div class="grid_4">
                 <div class="header-title">
@@ -310,7 +317,19 @@
 </footer> 
  <!-- jQuery (Bootstrap 4 requires jQuery 3.0 or later) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // Show the pop-up when the page loads
+    window.onload = function () {
+      document.getElementById("popup").style.display = "block";
+      document.getElementById("popup-overlay").style.display = "block";
+    };
 
+    // Close the pop-up when the button is clicked
+    document.getElementById("close-popup").onclick = function () {
+      document.getElementById("popup").style.display = "none";
+      document.getElementById("popup-overlay").style.display = "none";
+    };
+  </script>
 <!-- Popper.js (Required for Bootstrap 4) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
 
