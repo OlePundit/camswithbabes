@@ -205,14 +205,15 @@
                     <h3>FIRST TOP UP OFFER!</h3>
                     <h4>50% EXTRA FREE CREDIT</h4>
                     <p>On first top-up</p>
+                    <div class="row">
+                        <button class=""><a href="/register">Register</a></button>
+    
+                        <button id="close-popup">Close</button>
+    
+                    </div>
                 </div>
 
-                <div class="row">
-                    <button id="close-popup"><a href="/register">Register</a></button>
 
-                    <button id="close-popup">Close</button>
-
-                </div>
             </div>
         
             <div class="grid_4">

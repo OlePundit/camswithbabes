@@ -1480,6 +1480,23 @@ dl dd { }
 	display:flex;
 	justify-content: start;
 	flex-direction: column;
+	align-items: start;
+  }
+  #popup .popup-content .register{
+	background: #ff2363;
+	border-radius: 6px;
+	padding:7px 16px;
+	color:#fff;
+  }
+  #popup .popup-content #close-popup{
+	background: #007FFF;
+	border-radius: 6px;
+	padding:7px 16px;
+	color:#fff;
+
+  }
+  #popup img{
+	width:70%;
   }
   #popup h3{
 	color:#ff2363;
