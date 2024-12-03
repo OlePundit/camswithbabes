@@ -1414,6 +1414,10 @@ dl dd { }
 	.video{
 		padding:0!important;
 	}
+	#popup {
+		width: 300px;
+	  }
+	
 	
 }
 .login h1{
@@ -1454,7 +1458,7 @@ dl dd { }
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 300px;
+	width: 500px;
 	padding: 20px;
 	background: white;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -1471,6 +1475,10 @@ dl dd { }
 	height: 100%;
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 999;
+  }
+  #popup .popup-content{
+	display:flex;
+	justify-content: start;
   }
   #popup h3{
 	color:#ff2363;
