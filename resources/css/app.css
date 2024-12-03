@@ -1482,7 +1482,7 @@ dl dd { }
 	flex-direction: column;
 	align-items: start;
   }
-  #popup .popup-content .register{
+  #popup .popup-content .reg{
 	background: #ff2363;
 	border-radius: 6px;
 	padding:7px 16px;
