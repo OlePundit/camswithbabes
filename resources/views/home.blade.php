@@ -199,9 +199,7 @@
             <div id="popup-overlay"></div>
 
             <!-- Pop-up Content -->
-            <div style="background: url('{{url("/storage/images/dark-sexy.jpg")}}') center center / cover no-repeat;" >
-
-            <div id="popup">
+            <div id="popup" style="background: url('{{url("/storage/images/dark-sexy.jpg")}}') center center / cover no-repeat;">
                 <img src="storage/images/logo1.png">
               <h3>FIRST TOP UP OFFER!</h3>
               <h4>50% EXTRA FREE CREDIT</h4>
