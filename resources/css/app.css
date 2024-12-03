@@ -1416,3 +1416,35 @@ dl dd { }
 	}
 	
 }
+.login h1{
+	font-size: 24px;
+	font-weight: 500;
+	color:#000;
+	margin-top: 20px;
+}
+.login h1 span{
+	font-weight: 700;
+}
+.login label{
+	text-align: start;
+}
+.login button{
+	width:100%;
+	background:#ff2363;
+	border:none;
+	padding:8px;
+	color:#fff;
+	border-radius: 6px;
+}
+.login .btn-link{
+	color:#ff2363;
+}
+.login form{
+	margin-bottom:50px;
+}
+.login h4{
+	color:#000;
+}
+.login h4 a{
+	color:#ff2363;
+}

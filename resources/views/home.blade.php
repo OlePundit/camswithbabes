@@ -26,9 +26,7 @@
 <link rel="stylesheet" href="{{ asset('build/assets/app-c444118a.css') }}">
 <script src="{{ asset('build/assets/app-69aa0dbd.js') }}"></script>
 
-<!--@vite([
-    'resources/css/app.css', 'resources/js/app.js'
-])-->
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
