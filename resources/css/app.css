@@ -1472,3 +1472,18 @@ dl dd { }
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 999;
   }
+  #popup h3{
+	color:#ff2363;
+	font-weight: 700;
+	font-size: 24px;
+  }
+  #popoup h4{
+	color:#007FFF;
+	font-size: 22px;
+	font-weight:600;
+  }
+  #popup p{
+	color:#fff;
+	font-size: 20px;
+	font-weight: 500;
+  }
