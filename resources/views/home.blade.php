@@ -200,13 +200,11 @@
 
             <!-- Pop-up Content -->
             <div id="popup" style="background: url('{{url("/storage/images/dark-sexy.jpg")}}') center center / cover no-repeat;">
-                <div class="popup-content">
-                    <img src="storage/images/logo1.png">
-                    <h3>FIRST TOP UP OFFER!</h3>
-                    <h4>50% EXTRA FREE CREDIT</h4>
-                    <p>On first top-up</p>
-                </div>
-
+                
+                <img src="storage/images/logo1.png">
+              <h3>FIRST TOP UP OFFER!</h3>
+              <h4>50% EXTRA FREE CREDIT</h4>
+              <p>On first top-up</p>
                 <div class="row">
                     <button id="close-popup"><a href="/register">Register</a></button>
 
