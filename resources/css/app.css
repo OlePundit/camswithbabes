@@ -921,7 +921,7 @@ a.icon-4:hover {}
 	}
 	.profile .card-pics img {
 		width: 100%;
-		height: 200px;
+		height: 200px!important;
 		object-fit: cover;
 	}
 	.profile .desc{

@@ -117,7 +117,7 @@
             <div class="footer-block">
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-12 mb-3">
-                        <img src="storage/images/logo1.png" alt="">
+                        <img src="{{ asset('storage/images/logo1.png') }}" alt="">
                     </div>
                     <div class="col-lg-2 col-md-4 col-5">
                         <h4>Compliance</h4>
