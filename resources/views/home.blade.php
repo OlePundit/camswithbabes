@@ -216,7 +216,7 @@
 
             </div>
         
-            <div class="grid_4">
+            <div class="grid_4" id="section_swiper">
                 <div class="header-title">
                     <h3 class="marg1 mt-3"><strong style="margin-right: 5px;">Camswithbabes</strong> - The Hottest UK Cam Girls </h3>
                 </div>
@@ -287,22 +287,23 @@
                 <div class="col-lg-2 col-md-4 col-5">
                     <h4>Compliance</h4>
                     <ul class="list1">
-                    <li><a href="soon.html">Privacy policy</a></li>
-                    <li><a href="soon.html">Terms and conditions</a></li>
-                    <li><a href="soon.html">Contact Us</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#exampleModal">Privacy policy</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#termsModal">Terms and conditions</a></li>
+                        <li><a href="/contact-us">Contact Us</a></li>
+                        <li><a href="/faq">FAQs</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-4 col-5">
                     <h4>Register</h4>
                     <ul class="list1">
-                    <li><a href="soon.html">As a fan</a></li>
-                    <li><a href="soon.html">As a creator</a></li>
+                    <li><a href="/register">As a fan</a></li>
+                    <li><a href="/register">As a creator</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-4 col-5">
                     <h4>Categories</h4>
                     <ul class="list1">
-                    <li><a href="soon.html">Live</a></li>
+                    <li><a href="/section_swiper">Live</a></li>
                     <li><a href="soon.html">Messages</a></li>
                     <li><a href="soon.html">More</a></li>
                     </ul>
@@ -318,6 +319,250 @@
                     </a>
                     </div>
                     
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Privacy Policy</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h1>Privacy Policy for CamsWithBabes</h1>
+                            <p><strong>Effective Date:</strong> [Insert Date]</p>
+                            <p>
+                                CamsWithBabes (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;) is committed to protecting your privacy. 
+                                This Privacy Policy outlines how we collect, use, and protect your personal information when 
+                                you use our website, <strong>https://camswithbabes.com</strong> (the &quot;Site&quot;). By accessing or 
+                                using the Site, you agree to the terms of this Privacy Policy.
+                            </p>
+                        
+                            <h2>1. Information We Collect</h2>
+                            <p>We collect the following types of information:</p>
+                            <h3>a. Information You Provide Directly</h3>
+                            <ul>
+                                <li><strong>Account Registration:</strong> When you create an account, we collect your username, 
+                                    email address, password, and other details you choose to provide.</li>
+                                <li><strong>Payment Information:</strong> If you make a purchase, we collect payment information 
+                                    through secure third-party payment processors.</li>
+                                <li><strong>Communication:</strong> When you contact us or participate in chat features, we collect 
+                                    the content of your messages.</li>
+                            </ul>
+                        
+                            <h3>b. Information We Collect Automatically</h3>
+                            <ul>
+                                <li><strong>Log Data:</strong> Your IP address, browser type, device type, operating system, 
+                                    and other technical information.</li>
+                                <li><strong>Cookies and Tracking:</strong> We use cookies and similar tracking technologies 
+                                    to improve user experience and analyze site performance.</li>
+                            </ul>
+                        
+                            <h3>c. Sensitive Information</h3>
+                            <p>
+                                We may collect sensitive data, such as preferences and activity on the Site, but only to 
+                                enhance your user experience. We handle such data in compliance with applicable laws.
+                            </p>
+                        
+                            <h2>2. How We Use Your Information</h2>
+                            <p>We use the collected information for the following purposes:</p>
+                            <ul>
+                                <li>To provide, operate, and improve the Site.</li>
+                                <li>To process payments securely.</li>
+                                <li>To customize and personalize your experience.</li>
+                                <li>To communicate with you, including sending notifications, updates, or promotional materials.</li>
+                                <li>To enforce our Terms of Service and ensure user safety.</li>
+                                <li>To comply with legal obligations.</li>
+                            </ul>
+                        
+                            <h2>3. Sharing of Information</h2>
+                            <p>We do not sell your personal information. However, we may share your data in the following circumstances:</p>
+                            <ul>
+                                <li><strong>With Service Providers:</strong> For payment processing, hosting, analytics, 
+                                    and customer support.</li>
+                                <li><strong>For Legal Compliance:</strong> If required by law, subpoena, or other legal processes.</li>
+                                <li><strong>In Case of Business Transfer:</strong> If we undergo a merger, acquisition, 
+                                    or sale of assets.</li>
+                            </ul>
+                        
+                            <h2>4. Your Rights</h2>
+                            <p>
+                                Depending on your location, you may have the following rights:
+                            </p>
+                            <ul>
+                                <li><strong>Access:</strong> Request a copy of your data.</li>
+                                <li><strong>Correction:</strong> Correct inaccuracies in your data.</li>
+                                <li><strong>Deletion:</strong> Request deletion of your data (subject to legal requirements).</li>
+                                <li><strong>Opt-Out:</strong> Opt-out of marketing communications or cookie tracking.</li>
+                            </ul>
+                            <p>
+                                To exercise these rights, contact us at <a href="mailto:admin@camswithbabes.com">admin@camswithbabes.com</a>.
+                            </p>
+                        
+                            <h2>5. Data Security</h2>
+                            <p>
+                                We implement industry-standard security measures to protect your data. However, no system 
+                                is completely secure, and we cannot guarantee absolute protection.
+                            </p>
+                        
+                            <h2>6. Cookies and Tracking Technologies</h2>
+                            <p>
+                                We use cookies to enhance your experience. You can manage cookie preferences 
+                                through your browser settings.
+                            </p>
+                        
+                            <h2>7. Age Restriction</h2>
+                            <p>
+                                CamsWithBabes is intended for individuals 18 years or older. We do not knowingly 
+                                collect data from minors. If you believe we have inadvertently collected data 
+                                from a minor, contact us immediately.
+                            </p>
+                        
+                            <h2>8. International Data Transfers</h2>
+                            <p>
+                                If you access the Site outside the United States, your data may be transferred to and 
+                                stored in the U.S. By using the Site, you consent to this transfer.
+                            </p>
+                        
+                            <h2>9. Changes to This Privacy Policy</h2>
+                            <p>
+                                We may update this Privacy Policy from time to time. Any changes will be posted on this 
+                                page with an updated effective date. Please review it periodically.
+                            </p>
+                        
+                            <h2>10. Contact Us</h2>
+                            <p>
+                                If you have any questions about this Privacy Policy, please contact us:<br>
+                                Email: <a href="mailto:admin@camswithbabes.com">admin@camswithbabes.com</a><br>
+                                Mail: [Insert Mailing Address]
+                            </p>
+                        
+                            <p><em>This Privacy Policy is a general template and should be reviewed by a legal expert to ensure compliance with applicable laws.</em></p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="termsModalLabel">Terms and Conditions</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h1>Terms and Conditions for CamsWithBabes</h1>
+                            <p><strong>Effective Date:</strong> [Insert Date]</p>
+                            <p>
+                                Welcome to CamsWithBabes (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). By accessing or using our website, 
+                                <strong>https://camswithbabes.com</strong> (the &quot;Site&quot;), you agree to comply with and be bound by 
+                                these Terms and Conditions (&quot;Terms&quot;). If you do not agree to these Terms, you may not use the Site.
+                            </p>
+                        
+                            <h2>1. Eligibility</h2>
+                            <p>
+                                You must be at least 18 years old (or the legal age of majority in your jurisdiction) to access 
+                                or use the Site. By using the Site, you represent and warrant that you meet this age requirement.
+                            </p>
+                        
+                            <h2>2. User Accounts</h2>
+                            <p>
+                                To access certain features, you may need to create an account. You are responsible for maintaining 
+                                the confidentiality of your account information and are liable for all activities under your account.
+                            </p>
+                            <ul>
+                                <li>You agree to provide accurate and up-to-date information during registration.</li>
+                                <li>You must notify us immediately of any unauthorized use of your account.</li>
+                            </ul>
+                        
+                            <h2>3. Prohibited Activities</h2>
+                            <p>
+                                You agree not to engage in any of the following prohibited activities:
+                            </p>
+                            <ul>
+                                <li>Using the Site for unlawful purposes.</li>
+                                <li>Harassing, threatening, or defaming other users or models on the Site.</li>
+                                <li>Uploading or sharing content that violates intellectual property rights.</li>
+                                <li>Attempting to hack or disrupt the Site&apos;s functionality.</li>
+                            </ul>
+                        
+                            <h2>4. Intellectual Property</h2>
+                            <p>
+                                All content on the Site, including but not limited to text, images, videos, and graphics, 
+                                is the property of CamsWithBabes or its licensors and is protected by copyright, trademark, 
+                                and other intellectual property laws.
+                            </p>
+                            <p>
+                                You may not copy, distribute, or use any content from the Site without prior written consent.
+                            </p>
+                        
+                            <h2>5. Payments and Refunds</h2>
+                            <p>
+                                Any payments made on the Site are processed through secure third-party payment processors. 
+                                By making a payment, you agree to the terms of the respective payment processor.
+                            </p>
+                            <p>
+                                Refunds are subject to our discretion and will only be issued under exceptional circumstances. 
+                                Contact <a href="mailto:admin@camswithbabes.com">support@camswithbabes.com</a> for assistance.
+                            </p>
+                        
+                            <h2>6. Disclaimers</h2>
+                            <p>
+                                The Site is provided on an &quot;as-is&quot; and &quot;as-available&quot; basis. We make no warranties, 
+                                express or implied, regarding the Site&apos;s functionality, availability, or suitability for a particular purpose.
+                            </p>
+                            <p>
+                                We are not responsible for any damages arising from your use of the Site.
+                            </p>
+                        
+                            <h2>7. Limitation of Liability</h2>
+                            <p>
+                                To the fullest extent permitted by law, CamsWithBabes shall not be liable for any indirect, incidental, 
+                                or consequential damages arising from your use of the Site.
+                            </p>
+                        
+                            <h2>8. Termination</h2>
+                            <p>
+                                We reserve the right to terminate or suspend your account at any time for violations of these Terms 
+                                or any other reason at our discretion.
+                            </p>
+                        
+                            <h2>9. Modifications to the Terms</h2>
+                            <p>
+                                We may update these Terms from time to time. Any changes will be posted on this page with the 
+                                updated effective date. Continued use of the Site after changes indicates your acceptance of the updated Terms.
+                            </p>
+                        
+                            <h2>10. Governing Law</h2>
+                            <p>
+                                These Terms are governed by the laws of [Insert Jurisdiction], without regard to its conflict of law principles.
+                            </p>
+                        
+                            <h2>11. Contact Us</h2>
+                            <p>
+                                If you have any questions or concerns about these Terms, please contact us:<br>
+                                Email: <a href="mailto:admin@camswithbabes.com">admin@camswithbabes.com</a><br>
+                                Mail: [Insert Mailing Address]
+                            </p>
+                        
+                            <p><em>This Terms and Conditions document is a general template and should be reviewed by a legal expert to ensure compliance with applicable laws.</em></p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>     
         </div>

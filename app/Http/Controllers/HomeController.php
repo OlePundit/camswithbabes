@@ -34,4 +34,12 @@ class HomeController extends Controller
     {
         return view('video',compact('video'));
     }
+    public function contact()
+    {
+        return view('contact');
+    }
+    public function faq()
+    {
+        return view('faq');
+    }
 }

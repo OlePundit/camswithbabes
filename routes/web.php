@@ -20,7 +20,8 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/profile/{profile}', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');
 Route::get('/video/{video}', [App\Http\Controllers\HomeController::class, 'video'])->name('video');
-
+Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
+Route::get('/faq', [App\Http\Controllers\HomeController::class, 'faq'])->name('faq');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
