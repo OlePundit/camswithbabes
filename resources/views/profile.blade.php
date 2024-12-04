@@ -13,6 +13,22 @@
                   <p class="card-text">{{$profile->availability}}</p>
                 </div>
             </div>
+            <div class="card card-pics mobile">
+                <h4>My public pics</h4>
+                <div class="row">
+                    @php
+                    // Decode the JSON string into an array
+                    $img = json_decode($profile->img, true);
+                    @endphp
+                    @foreach($img as $img)
+                    <div class="col-md-6 col-6">
+                        <img src="{{ asset('storage/'.$img) }}">
+                    </div>
+                    @endforeach
+
+                </div>
+
+            </div>
             <div class="card card-info">
                 <h3>Essential Info</h3>
                 <table>
@@ -95,7 +111,7 @@
 
                 </p>
             </div>
-            <div class="card card-pics">
+            <div class="card card-pics desc">
                 <h4>My public pics</h4>
                 <div class="row">
                     @php
