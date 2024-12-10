@@ -70,6 +70,8 @@
                             </a>
                         </div>
                     </form>
+                    <h2>This website is operated by:</h2>
+                    <p>CamsWithBabes("We"). We are a company incorporated and registered in Wyoming in United States.</p>
         
                 </div>
             </div>

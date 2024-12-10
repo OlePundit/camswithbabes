@@ -866,7 +866,7 @@ transition: all 0.4s ease;
 .marg23 {margin-top:25px;}
 .marg24 {margin-top:-10px;}
 
-.row{
+.footer-block .row{
 	margin-right: 0!important;
 }
 .pad0 {padding-bottom:0px !important;}
@@ -1120,13 +1120,21 @@ footer {
 }
 .footer-block {width:100%; margin:0 auto; background:#000; position:relative; z-index:102; display:inline-block; padding-top:20px; padding-bottom:22px;padding-left: 30px;}
 .footer-block img{
-    width: 250px;
+    width: 100%;
     margin-bottom: 15px;
 }
 .footer-block .fab{
 	color:#fff;
 	font-size: 24px;
 	margin-right: 7px;
+}
+.modal-dialog h2{
+	color:#000;
+}
+@media(min-width:767px){
+	.modal-dialog{
+		max-width:80%;
+	}
 }
 .navbar-toggler{
 	border: 1px solid #fff!important;
@@ -1140,7 +1148,9 @@ footer {
 footer .foot-text { font-size:14px; color:#fff; margin-left:10px; float:left; font-family:Arial, Helvetica, sans-serif; padding-top:4px; padding-bottom:5px; line-height:15px; margin-top:10px;}
 footer .foot-text a {cursor:pointer; color:#fff; text-decoration:none;}
 footer .foot-text a:hover { text-decoration:underline; }
-
+.footer-block ul li a:hover{
+	color:#ff2363!important;
+}
 
 
 /**********************form**********************/
@@ -1585,6 +1595,15 @@ dl dd { }
 	font-weight: 700;
 	color:#000;
 	font-size: 1.8rem;
+}
+.contact h2{
+	font-weight: 600;
+	color:#000;
+	font-size: 1.4rem;
+	margin-top: 100px;
+}
+.contact p{
+	font-size:1rem;
 }
 .faq h1{
 	font-weight: 700;
